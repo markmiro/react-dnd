@@ -1,0 +1,147 @@
+{
+  "name": "markmiro/react-dnd",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://gaearon.github.io/react-dnd",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/markmiro/react-dnd",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/react-dnd",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "react-dnd",
+      "subhead": "Drag and Drop for React",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "react-dnd: Drag and Drop for React",
+          "url": "http://gaearon.github.io/react-dnd"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "markmiro",
+          "repo": "react-dnd"
+        }
+      ],
+      "text": "v2.1.4"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>React <em>DnD</em></h1>\n\n<p>See the docs, tutorials and examples on the website:</p>\n<p><a href=\"http://gaearon.github.io/react-dnd/\">http://gaearon.github.io/react-dnd/</a></p>\n<p>See the changelog on the Releases page:</p>\n<p><a href=\"https://github.com/gaearon/react-dnd/releases\">https://github.com/gaearon/react-dnd/releases</a></p>\n<p><a href=\"https://travis-ci.org/gaearon/react-dnd\"><img src=\"https://img.shields.io/travis/gaearon/react-dnd/master.svg?style=flat-square\"></a>\n<a href=\"https://www.npmjs.com/package/react-dnd\"><img src=\"https://img.shields.io/npm/v/react-dnd.svg?style=flat-square\"></a>\n<a href=\"https://www.npmjs.com/package/react-dnd\"><img src=\"https://img.shields.io/npm/dm/react-dnd.svg?style=flat-square\"></a>\n<a href=\"https://gitter.im/gaearon/react-dnd\"><img src=\"https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square\"></a>  </p>\n<p>Big thanks to <a href=\"https://www.browserstack.com\">BrowserStack</a> for letting the maintainers use their service to debug browser issues.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/markmiro/react-dnd",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/markmiro",
+          "text": "markmiro"
+        }
+      ]
+    }
+  ]
+}
